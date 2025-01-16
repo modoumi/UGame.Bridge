@@ -1,0 +1,23 @@
+{
+  "NugetItems": [
+    {
+      "NugetKey": "9c922b9d-16f2-3ccf-9a3a-1f15cf72d0fb",
+      "NugetSource": "http://192.168.1.120:8081/repository/nuget-hosted/",
+      "Mode": 3
+    }
+  ],
+  "NugetIndex": 0,
+  "IsGitCommit": true,
+  "Projects": [
+    "src\\Xxyy.Partners.Client\\Xxyy.Partners.Client.csproj",
+    "src\\Xxyy.Partners.Model\\Xxyy.Partners.Model.csproj"
+  ],
+  "VsixItem": {
+    "ProjectPath": null,
+    "VsixPath": null,
+    "ConfigPath": null,
+    "Token": "3twuo3jaffjjlqjzbn66ijxcma2qffswyt7ajekwnnsg62jbewgq",
+    "PublisherExePath": null,
+    "MSBuildExePath": null
+  }
+}

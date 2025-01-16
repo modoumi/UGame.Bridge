@@ -1,0 +1,67 @@
+{
+  "DockerPublish": {
+    "DefaultConfig": "fat",
+    "Configs": [
+      {
+        "Name": "dev",
+        "Desc": "开发环境",
+        "BuildMode": 0,
+        "DockerfilePath": "",
+        "ServerIp": "192.168.1.121",
+        "Port": "22",
+        "Username": "root",
+        "Password": "Ing*zhixin@2022",
+        "IsSsh": false,
+        "ServerPath": "/root/hosts/xxyy.partners",
+        "ImageName": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "ImgLocalPath": "images",
+        "ImgServerPath": "/root/hosts/Xxyy.Partners.WebAPI/images",
+        "Containers": [
+          {
+            "Name": "xxyy.partners",
+            "HostPort": 9010,
+            "HttpPort": 0,
+            "GrpcPort": 0,
+            "WebsocketPort": 0,
+            "ServerPath": "",
+            "EnvString": "-e DOTNET_ENVIRONMENT=dev",
+            "LimitCoreFile": true,
+            "IsDefault": true,
+            "IsHost": false,
+            "IsAspNet": true
+          }
+        ]
+      },
+      {
+        "Name": "fat",
+        "Desc": "测试环境",
+        "BuildMode": 0,
+        "DockerfilePath": "",
+        "ServerIp": "192.168.1.128",
+        "Port": "22",
+        "Username": "root",
+        "Password": "Ing*zhixin@2022",
+        "IsSsh": false,
+        "ServerPath": "/root/hosts/xxyy.partners",
+        "ImageName": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "ImgLocalPath": "",
+        "ImgServerPath": "",
+        "Containers": [
+          {
+            "Name": "xxyy.partners",
+            "HostPort": 9010,
+            "HttpPort": 0,
+            "GrpcPort": 0,
+            "WebsocketPort": 0,
+            "ServerPath": "",
+            "EnvString": "-e DOTNET_ENVIRONMENT=fat",
+            "LimitCoreFile": true,
+            "IsDefault": true,
+            "IsHost": false,
+            "IsAspNet": true
+          }
+        ]
+      }
+    ]
+  }
+}

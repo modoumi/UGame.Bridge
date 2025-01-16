@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.23</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xxyy.Common" Version="1.2.73" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xxyy.Partners.Model\Xxyy.Partners.Model.csproj" />
+  </ItemGroup>
+</Project>

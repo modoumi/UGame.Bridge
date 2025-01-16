@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.1.107</Version>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <EmbedAllSources>true</EmbedAllSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AiUo.AspNet" Version="1.0.0" />
+    <PackageReference Include="AiUo.Data.SqlSugar" Version="1.0.0" />
+    <PackageReference Include="AiUo.DbCaching" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UGame.Bridge.Model\UGame.Bridge.Model.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+{
+  "DockerPublish": {
+    "DefaultConfig": "fat",
+    "Configs": [
+      {
+        "Name": "default",
+        "Desc": "默认的配置",
+        "BuildMode": 0,
+        "ServerIp": "192.168.1.121",
+        "Port": "22",
+        "Username": "root",
+        "Password": "Ing*zhixin@2022",
+        "IsSsh": false,
+        "ServerPath": "/root/hosts/xxyy.partners",
+        "ImageName": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "Containers": [
+          {
+            "Name": "xxyy.partners",
+            "HttpPort": 9010,
+            "GrpcPort": 0,
+            "WebsocketPort": 0,
+            "ServerPath": "",
+            "OptionsString": "-e DOTNET_ENVIRONMENT=dev",
+            "CommandsString": null,
+            "LimitCoreFile": true,
+            "IsDefault": true,
+            "IsHost": false,
+            "IsAspNet": true,
+            "Ports": "http:9010"
+          }
+        ]
+      },
+      {
+        "Name": "fat",
+        "Desc": "测试环境",
+        "BuildMode": 0,
+        "ServerIp": "192.168.1.128",
+        "Port": "22",
+        "Username": "root",
+        "Password": "Ing*zhixin@2022",
+        "IsSsh": false,
+        "ServerPath": "/root/hosts/xxyy.partners",
+        "ImageName": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "Containers": [
+          {
+            "Name": "xxyy.partners",
+            "HttpPort": 9010,
+            "GrpcPort": 0,
+            "WebsocketPort": 0,
+            "ServerPath": "",
+            "OptionsString": "-e DOTNET_ENVIRONMENT=fat",
+            "CommandsString": null,
+            "LimitCoreFile": true,
+            "IsDefault": true,
+            "IsHost": false,
+            "IsAspNet": true,
+            "Ports": "http:9010"
+          }
+        ]
+      }
+    ]
+  }
+}

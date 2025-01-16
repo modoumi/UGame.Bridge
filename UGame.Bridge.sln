@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.WebAPI", "src\UGame.Bridge.WebAPI\UGame.Bridge.WebAPI.csproj", "{22B6CD1B-D7F6-4DB0-91A8-6898464F465F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Service", "src\UGame.Bridge.Service\UGame.Bridge.Service.csproj", "{DC6DC48D-FA90-49EC-AF36-8E94E04363E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Client", "src\UGame.Bridge.Client\UGame.Bridge.Client.csproj", "{853E9B7D-8FB7-446C-9B32-ACFA36FC8049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Providers", "2-Providers", "{4FE5686C-5EE8-44E3-BB44-EECDE3756B01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Hub88", "src\UGame.Bridge.Hub88\UGame.Bridge.Hub88.csproj", "{35C7814E-88D8-4B5B-9401-C1BA2E559DB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Model", "src\UGame.Bridge.Model\UGame.Bridge.Model.csproj", "{7155D11F-F515-4531-9C56-F237582921C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{AA5AE3C5-F895-4D27-95C6-589AD7A26F6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Pgsoft", "src\UGame.Bridge.Pgsoft\UGame.Bridge.Pgsoft.csproj", "{E0908273-A5DD-4969-BA16-087AC0CD093D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Client.Test", "src\UGame.Bridge.Client.Test\UGame.Bridge.Client.Test.csproj", "{6D40437B-E1B2-4ACF-875B-67A5A571AE21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Jili", "src\UGame.Bridge.Jili\UGame.Bridge.Jili.csproj", "{C6F89087-200A-4D20-B846-759AE0177175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-doc", "0-doc", "{D43C878E-4ADE-490F-AB43-3DE6C879879E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UGame.Bridge.Sb", "src\UGame.Bridge.Sb\UGame.Bridge.Sb.csproj", "{904E3DF4-1B31-4877-AA37-61AB14EB9DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22B6CD1B-D7F6-4DB0-91A8-6898464F465F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B6CD1B-D7F6-4DB0-91A8-6898464F465F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B6CD1B-D7F6-4DB0-91A8-6898464F465F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B6CD1B-D7F6-4DB0-91A8-6898464F465F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6DC48D-FA90-49EC-AF36-8E94E04363E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6DC48D-FA90-49EC-AF36-8E94E04363E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6DC48D-FA90-49EC-AF36-8E94E04363E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6DC48D-FA90-49EC-AF36-8E94E04363E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853E9B7D-8FB7-446C-9B32-ACFA36FC8049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853E9B7D-8FB7-446C-9B32-ACFA36FC8049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853E9B7D-8FB7-446C-9B32-ACFA36FC8049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853E9B7D-8FB7-446C-9B32-ACFA36FC8049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C7814E-88D8-4B5B-9401-C1BA2E559DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C7814E-88D8-4B5B-9401-C1BA2E559DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C7814E-88D8-4B5B-9401-C1BA2E559DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C7814E-88D8-4B5B-9401-C1BA2E559DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7155D11F-F515-4531-9C56-F237582921C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7155D11F-F515-4531-9C56-F237582921C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7155D11F-F515-4531-9C56-F237582921C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7155D11F-F515-4531-9C56-F237582921C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0908273-A5DD-4969-BA16-087AC0CD093D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0908273-A5DD-4969-BA16-087AC0CD093D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0908273-A5DD-4969-BA16-087AC0CD093D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0908273-A5DD-4969-BA16-087AC0CD093D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D40437B-E1B2-4ACF-875B-67A5A571AE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D40437B-E1B2-4ACF-875B-67A5A571AE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D40437B-E1B2-4ACF-875B-67A5A571AE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D40437B-E1B2-4ACF-875B-67A5A571AE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F89087-200A-4D20-B846-759AE0177175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F89087-200A-4D20-B846-759AE0177175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F89087-200A-4D20-B846-759AE0177175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F89087-200A-4D20-B846-759AE0177175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904E3DF4-1B31-4877-AA37-61AB14EB9DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904E3DF4-1B31-4877-AA37-61AB14EB9DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904E3DF4-1B31-4877-AA37-61AB14EB9DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904E3DF4-1B31-4877-AA37-61AB14EB9DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{853E9B7D-8FB7-446C-9B32-ACFA36FC8049} = {AA5AE3C5-F895-4D27-95C6-589AD7A26F6A}
+		{35C7814E-88D8-4B5B-9401-C1BA2E559DB3} = {4FE5686C-5EE8-44E3-BB44-EECDE3756B01}
+		{E0908273-A5DD-4969-BA16-087AC0CD093D} = {4FE5686C-5EE8-44E3-BB44-EECDE3756B01}
+		{6D40437B-E1B2-4ACF-875B-67A5A571AE21} = {AA5AE3C5-F895-4D27-95C6-589AD7A26F6A}
+		{C6F89087-200A-4D20-B846-759AE0177175} = {4FE5686C-5EE8-44E3-BB44-EECDE3756B01}
+		{904E3DF4-1B31-4877-AA37-61AB14EB9DE9} = {4FE5686C-5EE8-44E3-BB44-EECDE3756B01}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFD6778E-5E19-4CF4-9713-6209694DB26D}
+	EndGlobalSection
+EndGlobal
